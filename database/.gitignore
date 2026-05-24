@@ -1,0 +1,31 @@
+*.sqlite*
+
+
+# Laravel
+/vendor
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+
+# Env
+.env
+.env.*
+
+# Logs
+*.log
+
+# SSH keys
+docker123
+docker123.pub
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Cache
+bootstrap/cache/*.php
